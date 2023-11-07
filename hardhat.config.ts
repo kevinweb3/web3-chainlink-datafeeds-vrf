@@ -1,3 +1,7 @@
+/**
+ * @notice 注意：yarn 安装hardhat和npm 安装hardhat 导包方式和部分功能写法不同
+ * @notice 此处是npm 安装hardhat TS版本, npm安装直接引入hardhat-toolbox即可
+ */
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 require('dotenv').config();
